@@ -85,6 +85,7 @@ func Serve(conf *config.Config) (err error) {
 		Users:                 conf.Users,
 		Certificate:           conf.Certificate,
 		PrivateKey:            conf.PrivateKey,
+		ALPN:                  conf.ALPN,
 		CongestionControl:     conf.CongestionControl,
 		Fwmark:                int(fwmark),
 		SendThrough:           conf.SendThrough,
