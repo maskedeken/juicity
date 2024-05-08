@@ -12,8 +12,10 @@ curl --silent "https://api.github.com/repos/juicity/juicity/releases" | jq -r '.
 
 <!-- BEGIN NEW TOC ENTRY -->
 
-- [v0.4.0rc1 (Pre-release)](#v040rc1-pre-release)
-- [v0.3.0 (Latest)](#v030-latest)
+- [v0.4.2 (Latest)](#v042-latest)
+- [v0.4.1](#v041)
+- [v0.4.0](#v040)
+- [v0.3.0](#v030)
 - [v0.2.1](#v021)
 - [v0.2.0](#v020)
 - [v0.1.3](#v013)
@@ -22,9 +24,43 @@ curl --silent "https://api.github.com/repos/juicity/juicity/releases" | jq -r '.
 - [v0.1.0](#v010)
 <!-- BEGIN NEW CHANGELOGS -->
 
-### v0.4.0rc1 (Pre-release)
+### v0.4.2 (Latest)
 
-> Release date: 2023/12/30
+> Release date: 2024/04/19
+
+#### Bug Fixes
+
+- fix(cmd): use generic version flag to display ver info in [#159](https://github.com/juicity/juicity/pull/159) by (@sumire88)
+
+#### Others
+
+- ci(seed-build): update smoke test step in [#160](https://github.com/juicity/juicity/pull/160) by (@sumire88)
+
+**Full Changelog**: https://github.com/juicity/juicity/compare/v0.4.1...v0.4.2
+
+### v0.4.1
+
+> Release date: 2024/04/16
+
+#### Features
+
+- feat/chore: support to forward to v2ray-plugin nodes in [#145](https://github.com/juicity/juicity/pull/145) by (@mzz2017)
+
+#### Bug Fixes
+
+- fix: add allow_insecore=1 when cert need to pin in [#146](https://github.com/juicity/juicity/pull/146) by (@mzz2017)
+
+#### Others
+
+- chore(changelogs): release-v0.4.0rc1 -> release-v0.4.0 in [#149](https://github.com/juicity/juicity/pull/149) by (@sumire88)
+- chore: upgrade quic-go to 0.42.0 and utls to 1.6.4 in [#155](https://github.com/juicity/juicity/pull/155) by (@mzz2017)
+- ci(generate-changelogs): update workflow logic in [#156](https://github.com/juicity/juicity/pull/156) by (@sumire88)
+
+**Full Changelog**: https://github.com/juicity/juicity/compare/v0.4.0...v0.4.1
+
+### v0.4.0
+
+> Release date: 2024/02/02
 
 #### Features
 
@@ -54,7 +90,7 @@ curl --silent "https://api.github.com/repos/juicity/juicity/releases" | jq -r '.
 
 - @sumire88 made their first contribution in #142
 
-### v0.3.0 (Latest)
+### v0.3.0
 
 > Release date: 2023/09/02
 
